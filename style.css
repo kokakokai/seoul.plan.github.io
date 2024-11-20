@@ -1,0 +1,229 @@
+html{
+    /* min-width: 1920px; */
+    font-family: "Noto Sans KR", serif;
+    color: #444;
+}
+.s1{
+    width: 100%;
+    height: 600px;
+    background-image: url(s1_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#s1_bg{
+    background-color: rgba(198, 231, 255, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.s1 .wrap{
+    width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+}
+.s1 h1{
+    font-family: 'GmarketSansMedium';
+    font-size: 72px;
+    color: #444;
+}
+.s1 .wrap>ul{
+    color: #444;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+}
+.s1 .wrap>ul>li{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.s1 .tool{
+    display: flex;
+    gap: 24px;
+
+}
+.s1 .tool li{
+    width: 50px;
+    margin-top: 0px;
+}
+.s2{
+    width: 100%;
+    height: 600px;
+}
+.s2 .wrap{
+    width: 1320px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s2 .mockup{
+    
+}
+.s2 .txt{
+    display: flex;
+    flex-direction: column;
+}
+.s2 .txt h2{
+    font-size: 24px;
+}
+.s2 .txt h2::after{
+    content: '';
+    display: block;
+    width: 500px;
+    height: 1px;
+    background-color: #333;
+    margin: 30px 0;
+}
+.s2 .txt p{
+    font-size: 28px;
+}
+.s3{
+    width: 100%;
+    height: 600px;
+}
+.s3 .wrap{
+    width: 1320px;
+    margin: 0 auto;
+    height: 100%;
+
+}
+.s3 h1{
+    font-size: 32px;
+}
+.s3 h1:after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    margin: 30px 0;
+}
+.s3 .con{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.s3 .main_color{}
+.s3 .main_color h2{
+    font-size: 28px;
+}
+.s3 .color_con{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+.s3 .color_con .color_box{}
+.s3 .color_con .color_box .color{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+.s3 .color_con .color_box p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.s3 .font{}
+.s3 .font h2{
+    font-size: 28px;
+}
+.s3 .font_con{
+    margin-top: 30px;
+}
+.s3 .font_con .up_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s3 .font_con .up_con p{
+    font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+}
+.s3 .font_con .down_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.s3 .font_con .down_con p{
+    font-family: "Wanted Sans Variable", "Wanted Sans", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+}
+.s4{
+    width: 100%;
+    height: 600px;
+}
+.s4 .wrap{
+    width: 1320px;
+    margin: 0 auto;
+    height: 100%;
+}
+.s4 .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s4 h3{
+    font-size: 32px;
+}
+.s4 .con{
+    margin-top: 30px;
+}
+
+.s4 .con .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+.s4 .con .text:first-child{
+    margin: 0;
+}
+.s4 .con .text .left{
+    font-size: 24px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 536px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.s4 .con .text .right{
+    font-size: 24px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 536px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5px 5px 5px rgba(0,0,0,0.5);
+    
+}
+.s4 .con .text .arrow{
+    width: 70px;
+}
+.s5{
+    padding-top: 100px;
+}
+.s5 .bg_img{
+    margin: 0 auto;
+}
